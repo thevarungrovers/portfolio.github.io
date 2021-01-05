@@ -1,0 +1,75 @@
+body{
+    background-color: #ecf0f1;
+} 
+
+/* ME */
+.me-img{
+    padding-left: 10px;
+    padding-top: 10px;
+}
+
+/* Social Links */
+.imgsize{
+    height: 30px;
+    margin: 12px;
+}
+
+/* Skills */
+.skills img{
+    height: 45px;
+    margin: 12px;
+}
+
+/* Projects */
+.project a{
+    text-decoration: none;
+    color: black;
+}
+
+
+.project a:hover{
+    color:#00a8ff;
+}
+
+.project .row div{
+    margin-top: 20px;
+}
+
+#project-space{
+    margin-top: 20px;
+}
+
+/* Contact */
+.contact span{
+    font-size: 18px;
+}
+.contact a{
+    color: black;
+}
+
+.contact a:hover{
+    color:#00a8ff ;
+}
+
+/* footer */
+footer a{
+    color: inherit;
+    text-decoration: none;
+}
+
+footer a:hover{
+    color: #0abde3;
+    text-decoration: none;
+}
+
+#heart{
+    color: red;
+}
+ /* FOR LARGE SCREENS */
+ @media(max-width:700px){
+    .me-img{
+        height: 160px;
+        padding-left: 10px;
+        padding-top: 10px;
+    }
+ }
