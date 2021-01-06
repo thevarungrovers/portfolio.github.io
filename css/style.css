@@ -1,3 +1,7 @@
+*{
+    font-family: 'Yellowtail', cursive;
+}
+
 body{
     background-color: #ecf0f1;
 } 
@@ -20,6 +24,7 @@ body{
     margin: 12px;
 }
 
+
 /* Projects */
 .project a{
     text-decoration: none;
@@ -38,6 +43,7 @@ body{
 #project-space{
     margin-top: 20px;
 }
+
 
 /* Contact */
 .contact span{
@@ -64,6 +70,10 @@ footer a:hover{
 
 #heart{
     color: red;
+}
+
+footer img{
+    height: 23px;
 }
  /* FOR LARGE SCREENS */
  @media(max-width:700px){
