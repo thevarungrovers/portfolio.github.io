@@ -4,12 +4,23 @@
 
 body{
     background-color: #ecf0f1;
-} 
+}
+
+/* dark mode */
+#dark{
+    padding: 5px;
+}
+
+#dark img {
+    height: 30px;
+    float: right;
+}
 
 /* ME */
 .me-img{
     padding-left: 10px;
-    padding-top: 10px;
+    padding-top: 8px;
+    opacity: 100%;
 }
 
 /* Social Links */
