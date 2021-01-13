@@ -4,13 +4,13 @@ function lighttodark(){
     {
         // dark mode
         document.getElementById('lightmode').src = 'https://i.ibb.co/fpDLnxM/dark-mode.png';
-        document.getElementById('darkfooter').src = 'https://i.ibb.co/F0mYrgT/white-code-png.png'
+        document.getElementById('darkfooter').src = 'https://i.ibb.co/F0mYrgT/white-code-png.png';
     }
     else
     {
         // light mode
         document.getElementById('lightmode').src = 'https://i.ibb.co/48YTdQ6/light-mode.png'
-        document.getElementById('darkfooter').src = 'https://www.flaticon.com/svg/static/icons/svg/13/13706.svg'
+        document.getElementById('darkfooter').src = 'https://www.flaticon.com/svg/static/icons/svg/13/13706.svg';
     }
 }
 
@@ -32,20 +32,22 @@ function colorchange(){
 function textchange(){
     if(document.getElementById('lightmode').src === 'https://i.ibb.co/48YTdQ6/light-mode.png')
     {
-        // light mode
+                // light mode
         document.getElementById('wrapper').style.color = 'black';
-        document.getElementById('headtitle').style.color = 'black';
-
+        var i;
+        for (i = 0; i < 5; i++) {
+            document.getElementsByClassName('head-text')[i].style.color = 'black';
+        }
+        
     }
     else
     {
         // dark mode
         document.getElementById('wrapper').style.color = '#f5f6fa';
-        document.getElementById('headtitle1').style.color = '#f5f6fa';
-        document.getElementById('headtitle2').style.color = '#f5f6fa';
-        document.getElementById('headtitle3').style.color = '#f5f6fa';
-        document.getElementById('headtitle4').style.color = '#f5f6fa';
-        document.getElementById('headtitle5').style.color = '#f5f6fa';
+        var i;
+        for (i = 0; i < 5; i++) {
+            document.getElementsByClassName('head-text')[i].style.color = '#f5f6fa';
+        }
 
     }
 }
