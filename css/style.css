@@ -1,5 +1,6 @@
 *{
     font-family: 'Yellowtail', cursive;
+    user-select: none;
 }
 
 body{
